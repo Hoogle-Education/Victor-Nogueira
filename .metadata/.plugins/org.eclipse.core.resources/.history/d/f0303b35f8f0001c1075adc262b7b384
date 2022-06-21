@@ -1,0 +1,25 @@
+package application;
+
+import java.util.Scanner;
+
+public class CalculatorApp {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double primeiroValor, segundoValor;
+		String operation;
+
+		primeiroValor = sc.nextDouble();
+		operation = sc.next();
+		segundoValor = sc.nextDouble();
+		
+		if( operation == "+" ) {
+			System.out.println("Soma = " + (primeiroValor + segundoValor));
+		}
+		
+		sc.close();
+	}
+
+}

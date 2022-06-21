@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o seu nome: ");
+		String nome = sc.next();
+		
+		System.out.print("Digite a sua idade: ");
+		int idade = sc.next();
+		
+		System.out.println("Nome: " + nome);
+		
+	}
+
+}
